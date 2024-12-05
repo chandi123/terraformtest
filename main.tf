@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "Demo" {
-  ami           = "ami-09ce8ceb8d1d8e730"
+  ami           = "ami-07a1dfb9cd95e3c0a"
   instance_type = "t2.micro"
-  key_name = "test"
+  key_name = "bhola"
   tags = {
     Name = "Demo"
   }
